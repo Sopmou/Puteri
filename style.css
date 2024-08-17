@@ -1,0 +1,181 @@
+html {
+    text-align: center;
+}
+
+body {
+    background-image: url("background_total.jpg");
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: #3e8a60;
+    font-family: Garamond, serif;
+    font-size: 4rem;
+    font-style: italic;
+    font-weight: 100;
+    font-display: auto;
+    margin: 20px 0;
+}
+
+h3 {
+    color: #3e8a60;
+    font-family: Garamond, serif;
+    font-size: 1.5rem;
+    font-style: italic;
+    font-weight: bold;
+    font-display: auto;
+    padding-bottom: 20px;
+}
+
+a {
+    font-size: 1rem;
+    padding: 10px;
+}
+
+p {
+    margin: 0 20px 25px 20px;
+    font-size: 1.5rem;
+    font-family: Garamond, serif;
+    color: #55bd83;
+    font-weight: bold;
+}
+
+
+#textbereich1, #textbereich2 {
+    background-color: rgba(0, 0, 0, 0.707);
+    margin: 0 auto;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    border-radius: 25px;
+    width: 90%;
+    max-width: 350px;
+    box-sizing: border-box;
+}
+
+#textbereich1{
+    height: 8.938rem;
+    max-height: 8.938rem;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Vertikal zentrieren */
+    text-align: center;
+
+
+}
+
+#textbereich2 {
+    margin-top: 40px;
+    height: 16.25rem;
+    max-height: 16.25rem;
+    max-height: none;
+}
+
+#überschrift {
+    font-size: 2rem;
+    font-family: Garamond, serif;
+}
+
+#outputLink a {
+    font-size: 1.5rem;
+    font-family: Garamond, serif;
+    font-style: italic;
+    color: #55bd83;
+    font-weight: bold;
+}
+
+.common-style {
+    font-size: 2rem;
+    font-family: Garamond, serif;
+    font-style: italic;
+    color: #55bd83;
+    font-weight: bold;
+    padding-top: 30px;
+}
+
+button {
+    height: 2.2rem;
+    width: 10.5rem;
+    border-radius: 50px;
+    font-family: Garamond, serif;
+    font-size: 1.1rem;
+    margin-top: 20px;
+    color: #4a7f62;
+    font-weight: bold;
+    background-color: #e9abef;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.container, li, a {
+    font-size: 1rem;
+    color: #e998e5;
+    font-weight: bold;
+    padding: 10px;
+}
+
+nav {
+    border-style: double;
+    color: #e998e5;
+    padding: 1em;
+    margin: 0;
+}
+
+.upperLink a {
+    text-decoration: none;
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 3rem;
+    }
+
+    h3 {
+        font-size: 1.25rem;
+    }
+
+    p {
+        font-size: 1.25rem;
+    }
+
+    button {
+        width: 100%;
+        font-size: 1rem;
+    }
+
+    #textbereich1, #textbereich2 {
+        width: 95%;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    h3 {
+        font-size: 1rem;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+
+    button {
+        width: 100%;
+        font-size: 1rem;
+    }
+
+    #textbereich1, #textbereich2 {
+        width: 100%;
+    }
+
+    #überschrift, .common-style {
+        font-size: 1.5rem;
+    }
+}
